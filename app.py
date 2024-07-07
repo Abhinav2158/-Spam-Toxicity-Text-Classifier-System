@@ -1,7 +1,10 @@
-import os
+import subprocess
+import sys
 import streamlit as st
 
-os.system('pip install nltk')
+# Ensure nltk is installed
+subprocess.check_call([sys.executable, "-m", "pip", "install", "nltk"])
+
 import pickle
 import string
 import nltk
