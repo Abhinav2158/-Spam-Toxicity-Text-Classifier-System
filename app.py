@@ -1,4 +1,7 @@
+import os
 import streamlit as st
+
+os.system('pip install nltk')
 import pickle
 import string
 import nltk
